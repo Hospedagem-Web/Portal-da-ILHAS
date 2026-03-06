@@ -93,16 +93,17 @@ h1, h2 {
   }
 
   .card img {
-    height: 80px;                   /* Imagens menores nos cards */
+    height: 100px;                   /* Imagens menores nos cards */
   }
 
   h1, h2 {
-    font-size: 1.2rem;              /* Títulos menores para caber melhor */
+    font-size: 1.5rem;              /* Títulos menores para caber melhor */
   }
 
   .card .btn {
-    font-size: 0.7rem;              /* Texto do botão menor */
-    padding: 6px 10px;              /* Botão mais compacto */
+    font-size: 0.9rem;              /* Texto do botão menor */
+    padding: 10px 15px;              /* Botão mais compacto */
     border-radius: 4px;             /* Bordas discretas */
   }
 }
+
