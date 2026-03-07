@@ -55,7 +55,7 @@ h1, h2 {
 }
 
 .card h3 {
-  font-size: clamp(0.7rem, 2vw, 1rem); /* Tamanho do texto adaptável: mínimo 0.7rem, máximo 1rem */
+  font-size: clamp(1.1rem, 2vw, 1rem); /* Tamanho do texto adaptável: mínimo 0.7rem, máximo 1rem */
 }
 
 .card .btn {
@@ -106,3 +106,4 @@ h1, h2 {
     border-radius: 4px;             /* Bordas discretas */
   }
 }
+
