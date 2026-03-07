@@ -88,12 +88,12 @@ h1, h2 {
   }
 
   .card {
-    width: 200px;                   /* Cards menores em celulares */
+    width: 250px;                   /* Cards menores em celulares */
     height: auto;                   /* Altura ajustada automaticamente */
   }
 
   .card img {
-    height: 100px;                   /* Imagens menores nos cards */
+    height: 140px;                   /* Imagens menores nos cards */
   }
 
   h1, h2 {
@@ -102,8 +102,7 @@ h1, h2 {
 
   .card .btn {
     font-size: 0.9rem;              /* Texto do botão menor */
-    padding: 10px 15px;              /* Botão mais compacto */
+    padding: 6px 10px;              /* Botão mais compacto */
     border-radius: 4px;             /* Bordas discretas */
   }
 }
-
