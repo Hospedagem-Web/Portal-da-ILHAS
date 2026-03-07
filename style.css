@@ -3,11 +3,11 @@ body {
   background-color: #f4f4f4;        /* Cor de fundo cinza claro */
   display: flex;                    /* Usa flexbox para organizar os elementos */
   flex-direction: column;           /* Coloca os elementos em coluna (um abaixo do outro) */
-  justify-content: center;          /* Centraliza verticalmente o conteúdo */
-  align-items: center;              /* Centraliza horizontalmente o conteúdo */
-  min-height: 100vh;                /* Faz o body ocupar toda a altura da tela */
+  justify-content: center;          /* Centraliza verticalmente o conteúdo na tela */
+  align-items: center;              /* Centraliza horizontalmente */
+  min-height: 100vh;                /* Garante que o body ocupe toda a altura da tela */
   gap: 20px;                        /* Espaço entre os elementos */
-  padding: 20px;                    /* Espaço interno nas bordas da página */
+  padding: 20px;                    /* Espaço interno nas bordas */
 }
 
 .logo {
@@ -18,7 +18,7 @@ body {
 
 h1, h2 {
   text-align: center;               /* Centraliza os títulos */
-  color: #333;                      /* Cor do texto (cinza escuro) */
+  color: #333;                      /* Cor cinza escuro */
   margin: 1px 0;                    /* Margem mínima acima e abaixo */
 }
 
@@ -51,16 +51,16 @@ h1, h2 {
   width: 100%;                      /* Imagem ocupa toda a largura do card */
   height: 150px;                    /* Altura fixa da imagem */
   object-fit: cover;                /* Ajusta a imagem sem distorcer */
-  display: block;                   /* Garante que seja exibida como bloco */
+  display: block;                   /* Exibe como bloco */
 }
 
 .card h3 {
-  font-size: clamp(1.1rem, 2vw, 1rem); /* Tamanho do texto adaptável: mínimo 0.7rem, máximo 1rem */
+  font-size: clamp(0.8rem, 2vw, 1rem); /* Tamanho adaptável: mínimo 0.8rem, máximo 1rem */
 }
 
 .card .btn {
   display: inline-block;            /* Botão como bloco inline */
-  background-color: #007BFF;        /* Cor azul padrão */
+  background-color: #007BFF;        /* Azul padrão */
   color: #fff;                      /* Texto branco */
   text-decoration: none;            /* Remove sublinhado */
   padding: 10px 15px;               /* Espaço interno do botão */
@@ -88,22 +88,21 @@ h1, h2 {
   }
 
   .card {
-    width: 250px;                   /* Cards menores em celulares */
+    width: 140px;                   /* Cards menores em celulares */
     height: auto;                   /* Altura ajustada automaticamente */
   }
 
   .card img {
-    height: 140px;                   /* Imagens menores nos cards */
+    height: 80px;                   /* Imagens menores nos cards */
   }
 
   h1, h2 {
-    font-size: 1.5rem;              /* Títulos menores para caber melhor */
+    font-size: 1.2rem;              /* Títulos menores para caber melhor */
   }
 
   .card .btn {
-    font-size: 0.9rem;              /* Texto do botão menor */
+    font-size: 0.7rem;              /* Texto do botão menor */
     padding: 6px 10px;              /* Botão mais compacto */
     border-radius: 4px;             /* Bordas discretas */
   }
 }
-
